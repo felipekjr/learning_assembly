@@ -1,3 +1,3 @@
 # mips-examples
-Some mips assembly exercises made during college.
+Some assembly mips exercises made during college.
 

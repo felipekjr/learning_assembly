@@ -1,0 +1,35 @@
+--- EXERCÍCIO 1 ---
+1. Mapeamento direto
+2. LRU
+3. 1
+4. 8 blocos
+5. 4 
+6. 128
+7. 75%
+8. SIM
+9. Com o método de substituição LRU (substituição do blocos que não é usado há mais tempo)o acesso à memória cache diminuiu de 256 para 231. 
+Percebemos com isso que, com o LRU , conseguimos ganhar em desempenho, tendo em vista que tivemos menos acesso e consequentemente menos falhas para 
+serem buscadas no nível inferior à cache
+11. 88% (1 miss a cada 7 hits)
+12. 50% (o acesso das 4 primeiras será 1 miss 2 hits e 1 miss)
+
+--- EXERCÍCIO 2 ---
+13. Mapeamento direto
+14. LRU
+15. 1
+16. 8 blocos
+17. 4 
+18. 128
+19. 0%
+20. Como o percurso da matriz está sendo feito coluna a coluna, dois acessos consecutivos não fazem acesso a posições de memória contíguas.
+No primeiro miss, é recuperado o bloco com 4 palavras referentes à linha, mas os meus acessos irão seguir a ordem da coluna, dessa forma, nunca iremos
+encontrar dados em cache tendo em vista que o mesmo é zerado à cada nova coluna.
+21. 0%
+22. Não, segue-se o mesmo princípio da questão 20. A memória cache irá requisitar os dados faltantes em linha, mas o acesso se dá por coluna
+
+--- EXERCÍCIO 3 ---
+23. 
+Configuração A:
+Configuração B:
+
+24.

@@ -1,3 +1,4 @@
-# mips-examples
-Some assembly mips exercises made during college.
+# Exercícios em Assembly MIPS
+
+Para a disciplina Arquitetura de Computadores
 
